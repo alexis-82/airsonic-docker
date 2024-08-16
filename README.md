@@ -133,6 +133,7 @@ Ubuntu 24.04 potrebbe avere una versione leggermente diversa di Docker rispetto 
 
     ```bash
     sudo apt install docker.io docker-compose-v2
+    sudo usermod -aG docker ${USER}
     ```
 
 6. Verifica l'installazione di Docker:
