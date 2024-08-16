@@ -1,0 +1,21 @@
+services:
+  airsonic-advanced:
+    image: airsonicadvanced/airsonic-advanced:latest
+    container_name: airsonic-advanced
+    environment:
+      - TZ=Europe/Rome
+#      - CONTEXT_PATH=<URL_BASE>       #opzionale
+#      - JAVA_OPTS=<options>           #opzionale
+    volumes:
+      # ./= nella stessa cartella di docker e /var/ è la cartella del contenitore
+      - ./playlists:/var/playlists
+      - ./podcasts:/var/podcasts
+      - ./data:/var/airsonic
+      - ./music:/var/music
+
+    ports:
+      - 4040:4040
+      - 4041:4041
+#    devices:
+#      - /dev/snd:/dev/snd #opzionale ... se si vuole abilitare la modalità jukebox in AirSonic
+    restart: unless-stopped
