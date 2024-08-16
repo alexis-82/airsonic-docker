@@ -32,10 +32,10 @@ services:
     image: airsonic/airsonic
     container_name: airsonic
     volumes:
-      - /path/to/airsonic/data:/airsonic/data
-      - /path/to/airsonic/musica:/airsonic/music
-      - /path/to/airsonic/playlists:/airsonic/playlists
-      - /path/to/airsonic/podcasts:/airsonic/podcasts
+      - ./path/to/airsonic/data:/airsonic/data
+      - ./path/to/airsonic/musica:/airsonic/music
+      - ./path/to/airsonic/playlists:/airsonic/playlists
+      - ./path/to/airsonic/podcasts:/airsonic/podcasts
     ports:
       - "4040:4040"
     restart: unless-stopped
@@ -177,10 +177,10 @@ services:
     image: airsonic/airsonic
     container_name: airsonic
     volumes:
-      - /path/to/airsonic/data:/airsonic/data
-      - /path/to/airsonic/musica:/airsonic/music
-      - /path/to/airsonic/playlists:/airsonic/playlists
-      - /path/to/airsonic/podcasts:/airsonic/podcasts
+      - ./path/to/airsonic/data:/airsonic/data
+      - ./path/to/airsonic/musica:/airsonic/music
+      - ./path/to/airsonic/playlists:/airsonic/playlists
+      - ./path/to/airsonic/podcasts:/airsonic/podcasts
     ports:
       - "4040:4040"
     restart: unless-stopped
