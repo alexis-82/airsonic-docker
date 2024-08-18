@@ -1,3 +1,19 @@
+# Airsonic
+
+**Airsonic** è un server di streaming musicale open-source progettato per ospitare e gestire collezioni musicali. Consente lo streaming e la gestione della tua musica ovunque ti trovi, su qualsiasi dispositivo. Airsonic supporta una vasta gamma di formati audio e può essere utilizzato per creare playlist, podcast e radio personalizzate. È altamente configurabile e offre funzionalità come la transcodifica al volo, il caching delle tracce e il supporto multi-utente.
+
+Caratteristiche principali:
+- **Streaming Audio**: Supporta formati come MP3, AAC, FLAC, OGG, e molti altri.
+- **Gestione delle Playlist**: Crea e gestisci facilmente playlist personalizzate.
+- **Supporto Podcast**: Airsonic permette di gestire e ascoltare podcast direttamente dal server.
+- **Multi-utente**: Offre la possibilità di creare diversi account utente con permessi personalizzati.
+- **Interfaccia Web Intuitiva**: Accessibile da qualsiasi browser, con un'interfaccia user-friendly.
+- **Transcodifica**: Può convertire file audio in tempo reale per adattarsi alle capacità di banda o alle preferenze del dispositivo.
+
+Airsonic è particolarmente utile per chi desidera un controllo completo sulla propria libreria musicale, offrendo un'alternativa self-hosted alle piattaforme di streaming tradizionali.
+
+---
+
 # Installazione di Airsonic con Docker Compose
 
 Questa guida ti aiuterà a configurare e avviare un'istanza di Airsonic utilizzando Docker Compose.
